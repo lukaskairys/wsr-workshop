@@ -10,7 +10,7 @@
   "scripts": {
     "start": "yoshi start",
     "build": "yoshi build",
-    "test": "yoshi test",
+    "test": "yoshi test --watch",
     "lint": "yoshi lint",
     "posttest": "npm run lint"
   },
@@ -36,7 +36,8 @@
     "express": "^4.17.1",
     "react": "16.12.0",
     "react-dom": "16.12.0",
-    "source-map-support": "^0.5.11"
+    "source-map-support": "^0.5.11",
+    "wix-ui-icons-common": "^2.0.401"
   },
   "devDependencies": {
     "@testing-library/react": "^11.2.5",
@@ -53,7 +54,8 @@
     "husky": "~4.2.1",
     "lint-staged": "^10.0.7",
     "puppeteer": "^5.5.0",
-    "typescript": "~4.1.6"
+    "typescript": "~4.1.6",
+    "wix-style-react": "^10.29.0"
   },
   "jest": {
     "preset": "@wix/jest-yoshi-preset"
